@@ -1,0 +1,318 @@
+
+header li {
+    display: inline-block;
+    border-bottom: #DBAE72;
+}
+header a{
+    color: #DBAE72 ;
+    text-decoration: none;
+    font-size: 15px;
+    width: 1.85714em;
+    max-width: 44.2px;
+    background-position: center center;
+    background-origin: content-box;
+    
+}
+.header-ul
+{
+    display: inline-block;
+    width: 1000px;
+    height: 44px;
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-between;
+margin-block-start: 0;
+margin-block-end: 0;
+}
+body{
+    background-color: white;
+    margin: 0px;
+    
+}
+.header-div
+{
+    position: sticky;
+    background-color: #333333;
+    width: 100%;
+    height: 44px;
+    top: 0;
+    display: inline;
+}
+.home-logo
+{
+    display: inline-block;
+    height: 44px;
+    vertical-align: middle;
+    padding: 5px 0px 0px 0px;
+}
+.inner_main_menu 
+{
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    max-width: 1000px;
+    height: 44px;
+}
+header
+{
+    position: sticky;
+    top: 0px;
+    z-index: 150;
+    backdrop-filter: saturate(180%) blur(20px);
+    /* background-color: #333333b7; */
+    background-color: #ffffffb7;
+}
+header li a p 
+{
+    font-size: 20px;
+    font-family:  'Nunito', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    
+}
+header li a p:hover
+{
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: goldenrod;
+    
+}
+.mawada-store
+{
+    font-family: 'Alice', serif;
+    font-size: 15px;
+}
+.logo-svg
+{
+    float: left;
+    margin-right: 2px;
+}
+.logo-type
+{
+    float: right;
+}
+.logo-b
+{
+    height: 2px;
+    width: auto;
+}
+.main-poster{
+    width: 100%;
+    background: url(../images/line.svg);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+#main-photo1{
+    background: url(../images/home.jpg);
+    width: 315px;height: 650px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border-radius: 360px;
+    background-position: center;
+    margin: 0px auto;
+    margin-top: calc(.3/3 *800px);
+    padding: 40px 0px;
+    }
+#main-photo2{background: url(../images/home2.jpg); 
+        width: 240px;height: 320px;
+        background-size: cover ;
+        background-repeat: no-repeat;
+        border-radius: 360px;
+        margin: 0px auto;
+        background-position: center;
+        margin-top: calc(1.6/3 *800px);
+        padding: 40px 0px;
+        }
+#main-photo3{background: url(../images/home3.jpg);
+            width: 240px;height: 320px;
+            background-size: cover ;
+            background-repeat: no-repeat;
+            border-radius: 360px;
+            margin: 0px auto;
+            background-position: center;
+            margin-top: calc(.3/3 *800px);
+            padding: 40px 0px;
+            }
+.new-collection{
+            font-family: 'Abril Fatface', cursive;
+            text-align: center;
+            position: absolute;
+            margin-top: 90px;
+            font-size: 90px;
+            margin-left: 80px;}
+.qoute{
+            font-size: 45px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 300px;
+            text-align: center;
+            margin: 0px 90px 70px 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+footer{
+    background-color: #f5f5f7;
+}
+.foot-div{
+    margin: 0 auto;
+    padding: 0 22px;
+    width: 980px;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+}
+.foot-links ul{
+    list-style-type: none;
+}
+.foot-lists{width: -webkit-fill-available;}
+.foot-div ul{
+    list-style-type: none;
+    padding: 0;}
+.foot-lists ul li ul {list-style-type: none;}
+.foot-lists a {text-decoration: none;color: #515154;font-size: 12px;}
+.foot-lists a:hover{
+    color: #1d1d1f;
+    text-decoration: underline;}
+.foot-div h3{margin-bottom: 9.6px; font-weight: 600;font-size: 12px;}
+.foot-lists li {margin-bottom: 9.6px;}
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 11px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #333333;
+    color: white!important;
+}
+.fa-instagram {
+    background: #333333;
+    color: white!important;
+}
+.product-view {
+    background-color: #F3ECE5;
+    width: auto;
+    height: 660px;
+    margin: 10px 20px 0px;
+    text-align: center;
+    padding-top: 10px;
+    contain: content;
+    font-family: 'Roboto', sans-serif;
+}
+.product-view a {text-decoration: none;
+    color: black;
+    width: 30%;
+}
+hr{width: 33.3%;background-color: white;height: 3px;border: none;}
+#shop-text{font-weight: bold;font-size: 2em;}
+.product{height: 600px;
+    transition: transform cubic-bezier(0.4,0,0.2,1) .3s;
+    position: relative;
+    font-size: 20px;
+    contain: content;
+    background-color: white;
+    border-radius: 20px;
+}
+.product img {width: 100%;height: 75%;}
+.product span {font-weight: bold;font-size: 12px;}
+.product p {font-weight: bold;}
+.buy-now {visibility: hidden;
+    color: white;
+    background: black;
+    border-radius: 360px;
+    margin: 0px 150px;
+    padding: 5px;
+}
+.product:hover .buy-now{visibility: visible;}
+.product:hover .price{width: 0px;height: 0px;visibility: hidden;}
+.product:hover {transform: scale(1.05);}
+
+.brand-view {
+    width: auto;
+    height: 950px;
+    margin: 0;
+    background-color: #f3f3f3;
+    padding-top: 1px;
+}
+.gift-div {
+    
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px auto 0px;
+    max-width: 1200px;
+    height: 420px;
+    display: flex;
+    contain: content;
+}
+.gift-div img {width: 50%;
+height: 100%;
+}
+.gift-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    font-family: "ROBOTO",serif;
+}
+.gift-content p {
+font-weight: bold;
+font-size: 40px;
+margin-bottom: 5px;
+}
+.gift-content span {
+    font-size: 16px;
+}
+.gift-content a{
+    text-decoration: none;
+    color: white;
+    background-color: #e91e63;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 360px;
+    margin: 20px auto 0;
+    padding: 10px;}
+
+.inspration-view{
+    width: 100%;
+    height: 400px;
+    background-color: #333333;
+    display: flex;
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+.inspration-view span{
+    font-family: 'Miss Fajardose', cursive;
+    font-size: 40px;
+    color: yellow;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.inspration-view img {
+    width: 40%;
+    height: 100%;
+}
+.inspration-view h1{
+    font-size: 30px;
+    
+}
+.inspration-view p{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+} 
