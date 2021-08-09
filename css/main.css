@@ -228,13 +228,14 @@ hr{width: 33.3%;background-color: white;height: 3px;border: none;}
 .product p {font-weight: bold;}
 .buy-now {visibility: hidden;
     color: white;
-    background: black;
+    background: goldenrod;
     border-radius: 360px;
     margin: 0px 150px;
     padding: 5px;
+    display: none;
 }
-.product:hover .buy-now{visibility: visible;}
-.product:hover .price{width: 0px;height: 0px;visibility: hidden;}
+.product:hover .buy-now{visibility: visible;display: block;}
+.product:hover .price{width: 0px;height: 0px;visibility: hidden;display: none;}
 .product:hover {transform: scale(1.05);}
 
 .brand-view {
@@ -316,3 +317,4 @@ margin-bottom: 5px;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
 } 
+
