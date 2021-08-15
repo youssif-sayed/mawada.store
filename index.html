@@ -9,6 +9,7 @@
     <link rel="icon" href="images/logobg.png">
     <meta name="description"
         content="Discover Mawada Store official website and buy online the collections of scarfs that suit your style.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,7 @@
                     <ul class="header-ul">
                         <li>
                             <div class="home-logo logo">
-                                <a href="main.html" title="Home" rel="home">
+                                <a href="index.html" title="Home" rel="home">
                                     <div style="display: flex;">
                                         <div class="logo-svg"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -169,7 +170,7 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="header_item"><a href="main.html">
+                        <li class="header_item"><a href="index.html">
                                 <p>Home</p>
                             </a></li>
                         <li class="header_item"><a href="#">
@@ -184,6 +185,15 @@
                         <li class="header_item logo"><a href="#"><span class="material-icons">
                                     search
                                 </span></a></li>
+                        <li class="header_item logo"><a href="#"><span class="material-icons">
+                                    shopping_bag
+                                </span></a></li>
+                    </ul>
+                    <ul class="header-ul-mob">
+                        <li class="header_item logo"><a href="#"><span class="material-icons">
+                                    menu
+                                </span></a></li>
+                        <li><a href="index.html"><img src="images/logobg.png" alt=""></a></li>
                         <li class="header_item logo"><a href="#"><span class="material-icons">
                                     shopping_bag
                                 </span></a></li>
@@ -214,7 +224,7 @@
         <div class="product-view">
             <a href="#" id="shop-text">SHOP</a>
             <hr>
-            <div style="display: flex;justify-content: space-around;">
+            <div class="product-items">
                 <a href="#">
                     <div class="product">
 
@@ -282,6 +292,7 @@
         </div>
     </section>
 
+
     <footer>
         <div class="foot-div">
             <div class="foot-lists">
@@ -317,13 +328,53 @@
                     </li>
                 </ul>
             </div>
-            <div class="foot-links">
-
+            <div class="foot-mob">
                 <ul>
                     <li>
-
+                        <label for="">
+                            <h3>BRAND</h3>
+                            <div class="plus-minus">
+                                <span class="material-icons brand-add-icon">
+                                    add
+                                </span>
+                                <span class="material-icons brand-remove-icon">
+                                    remove
+                                </span>
+                            </div>
+                        </label>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="">
+                            <h3>STORE</h3>
+                            <div class="plus-minus">
+                                <span class="material-icons store-add-icon">
+                                    add
+                                </span>
+                                <span class="material-icons store-remove-icon">
+                                    remove
+                                </span>
+                            </div>
+                        </label>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                     </li>
                 </ul>
+                <div class="social">
+                    <a href="https://www.facebook.com/MawadaStore2020/" title="Facebook" target="_blank"
+                        class="fa fa-facebook"> </a>
+                    <a href="https://www.instagram.com/mawada.store.2020/" title="Instagram" target="_blank"
+                        class="fa fa-instagram"> </a>
+                </div>
             </div>
         </div>
     </footer>
