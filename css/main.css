@@ -361,7 +361,7 @@ margin-bottom: 5px;
 
 
 @media (max-width: 767px) {
-header {position: initial;background: white;}
+header {position: initial;background: #333;}
 .header-ul{display: none;}
 .header-ul-mob{
     display: flex;
