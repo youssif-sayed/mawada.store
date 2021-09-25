@@ -19,35 +19,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/header&footer.css">
-
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-          apiKey: "AIzaSyCSv5p9LcHVZ2KNrzDkG1ZiSYpyZvKA-b0",
-          authDomain: "mawada-store.firebaseapp.com",
-          projectId: "mawada-store",
-          storageBucket: "mawada-store.appspot.com",
-          messagingSenderId: "1009931098013",
-          appId: "1:1009931098013:web:b0e6d0340b1916113dc174"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-      </script>
-      
 </head>
 
-<body onload="loadfun()">
-    <div id="loading"></div>
+<body>
+
     <header>
         <div id="main-menu">
             <div class="header-div">
@@ -207,7 +185,7 @@
                         <li class="header_item logo"><a href="#"><span class="material-icons">
                                     search
                                 </span></a></li>
-                        <li class="header_item logo "><a class="shopping-bag" href="#"><span class="material-icons">
+                        <li class="header_item logo"><a href="#"><span class="material-icons">
                                     shopping_bag
                                 </span></a></li>
                     </ul>
@@ -220,122 +198,109 @@
                                     shopping_bag
                                 </span></a></li>
                     </ul>
-                    <aside>
-                        <div>
-                            <p>Your Bag is empty.</p>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </aside>
                 </div>
             </div>
     </header>
 
-
     <section>
-        <div class="main-poster">
-            <div style="display: flex;position: relative;">
-                <div class="new-collection">
-                    <span>Summer</span>
-                    <br>
-                    <span>Collection</span>
+        <div style="background: #f6f1eb;">
+            <div class="product-area">
+                <div class="pictures-area">
+                    <div class="side-pictures">
+                        <button><img src="images/products/b2ry/product1.jpg" alt=""></button>
+                        <button><img src="images/products/b2ry/product2.jpg" alt=""></button>
+                        <button><img src="images/products/b2ry/product3.jpg" alt=""></button>
+                    </div>
                 </div>
-                <div class="main-photo" id="main-photo2"></div>
-                <div class="main-photo" id="main-photo1"></div>
-                <div class="main-photo" id="main-photo3"></div>
-                <div class="qoute"><span>A Woman is allways buying somthing</span></div>
-            </div>
-        </div>
-    </section>
-
-
-    <section>
-        <div style="padding-bottom: 15px;background: #f3ece5;">
-            <div class="product-view">
-                <a href="#" id="shop-text">SHOP</a>
-                <hr>
-                <div class="product-items">
-                    <a href="product-b2ry.html">
-                        <div class="product">
-
-                            <img src="images/product1.jpg" alt="">
-                            <p>Amot na fy l b2ry</p>
-                            <span class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                                minus repellat
-                                ratione neque ipsa.</span>
-                            <p class="price">130 <span> EGP </span></p>
-                            <div class="buy-now">Buy now</div>
+                <div class="main-picture">
+                    <img src="images/products/b2ry/product1.jpg" alt="">
+                </div>
+                <div class="details-area">
+                    <div>
+                        <h1 id="product-name">Amot na fy l b2ry</h1>
+                        <hr>
+                        <p class="price">130 <span>EGP</span></p>
+                        <p id="product-disc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ratione
+                            magni
+                            laboriosam fugiat
+                            nam voluptates aut adipisci iure cum vero doloremque commodi reiciendis, deleniti totam vel
+                            nemo
+                            sapiente animi perspiciatis.</p>
+                        <ul>
+                            <li>
+                                <span class="material-icons ">
+                                    layers
+                                </span>
+                                <span>Chiffon</span>
+                            </li>
+                            <li>
+                                <span class="material-icons">
+                                    straighten
+                                </span>
+                                <span>205cm</span>
+                            </li>
+                            <li>
+                                <span class="material-icons flip">
+                                    straighten
+                                </span>
+                                <span>180cm</span>
+                            </li>
+                        </ul>
+                        <p style="font-weight: bold; font-family: 'Roboto';">QTY</p>
+                        <div class="counter">
+                            <span class="material-icons">
+                                remove
+                            </span>
+                            <div id="counter-number">1</div>
+                            <span class="material-icons">
+                                add
+                            </span>
                         </div>
-                    </a>
-                    <a href="#">
-                        <div class="product">
-
-                            <img src="images/product2.jpg" alt="">
-                            <p>ya m4gr nta ya 3sl</p>
-                            <span class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                                minus repellat
-                                ratione neque ipsa.</span>
-                            <p class="price">130 <span> EGP </span></p>
-                            <div class="buy-now">Buy now</div>
+                        <div class="add-product">
+                            <span>Place in Cart</span>
                         </div>
-                    </a>
-                    <a href="#">
-                        <div class="product">
-
-                            <img src="images/product3.jpg" alt="">
-                            <p>3eni z8llt mn l tr7a</p>
-                            <span class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                                minus repellat
-                                ratione neque ipsa.</span>
-                            <p class="price">130 <span> EGP </span></p>
-                            <div class="buy-now">Buy now</div>
+                        <p>Complimentary delivery or Collect-in-Store</p>
+                        <div class="find-store">
+                            <span class="material-icons">
+                                place
+                            </span>
+                            <span>Find a Store Near You</span>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <section>
-        <div class="brand-view">
-            <div class="gift-div">
-                <img src="images/gift.jpg" alt="">
-                <div class="gift-content">
-                    <p>It's allways about details</p>
-                    <span>See how we deal with the smallest details</span>
-                    <a href="#">LEARN MORE</a>
-                </div>
-            </div>
-            <div class="gift-div">
-                <img src="images/place.jpg" alt="">
-                <div class="gift-content">
-                    <p>Find our locations</p>
-                    <span>locate where we sell our products</span>
-                    <a href="#">LOCATE</a>
-                </div>
-            </div>
+        <div class="related-div">
+            <hr>
+            <h1>YOU MAY ALSO LIKE</h1>
+            <ul class="related-products">
+                <li>
+                    <a href="">
+                        <img src="images/preview/asfr_kanry.jpg" alt="">
+                        <p class="related-name">Asfr Knary</p>
+                        <p class="related-price">130<span>EGP</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/preview/m4gr.jpg" alt="">
+                        <p class="related-name">M4gr Azr2</p>
+                        <p class="related-price">130<span>EGP</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/preview/romady_pink.jpg" alt="">
+                        <p class="related-name">Romady Pink</p>
+                        <p class="related-price">130<span>EGP</span></p>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
-
-
-    <section>
-        <div class="inspration-view">
-            <img src="images/team.jpg" alt="">
-            <div>
-                <h1>7ta qoute ll vistors</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae deleniti cum consequuntur
-                    mollitia ab eos illum, magni necessitatibus eaque quibusdam consequatur tenetur cupiditate quasi
-                    obcaecati architecto dignissimos veniam nobis.</p>
-            </div>
-            <span>Mawada</span>
-        </div>
-    </section>
-
 
     <footer>
         <div class="foot-div">
@@ -423,15 +388,6 @@
         </div>
     </footer>
 
-
-
 </body>
-
-<script>
-    var load = document.getElementById("loading");
-    function loadfun(){
-        load.style.display = 'none';
-    }
-</script>
 
 </html>
